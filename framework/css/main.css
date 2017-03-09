@@ -1,12 +1,17 @@
-* {
+/** {
     border: 1px solid red !important;
 }
-
+*/
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (max-width: 500px) {
@@ -72,3 +77,22 @@
 .col-12 {
     width: 100%;
 }
+
+h1 {
+    text-align: right;
+}
+
+body {
+    text-align: center;
+}
+/*h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}*/
